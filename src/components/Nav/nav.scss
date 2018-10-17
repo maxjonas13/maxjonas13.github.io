@@ -1,0 +1,28 @@
+@import "../../_Globals/css/var";
+
+.nav{
+    display: block;
+    width:100%;
+    background: $color-grey;
+    padding: 0;
+    &-inner{
+        display: block;
+        margin: $gap--medium;
+    }
+    &--link{
+        flex-basis: 0 0 auto;
+        color: $color--black;
+        text-decoration: none;
+        padding: $gap--medium;
+        display: inline-block;
+        height: 100%;
+        transition: background 200ms;
+        &:hover{
+            background: rgba($color--black, 0.3);
+        }
+    }
+
+    &--active{
+        background: rgba($color--black, 0.1);
+    }
+}
