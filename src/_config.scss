@@ -1,0 +1,257 @@
+// /**
+//  *
+//  * CONFIG
+//  *
+//  */
+
+// /**
+//  *
+//  * COMPONENTS
+//  *
+//  */
+
+// $menuIcon-width       :  22px;
+
+// $header-height--small :  70px;
+
+// $button-height--small :  36px;
+// $button-height--medium:  42px;
+// $button-height--large :  48px;
+// $button-height--xlarge:  54px;
+
+// $input-height--small :  36px;
+// $input-height--medium:  42px;
+// $input-height--large :  48px;
+// $input-height--xlarge:  54px;
+
+// /**
+//  *
+//  * BREAKPOINTS
+//  *
+//  */
+
+// $bp--small  :  500px;
+// $bp--medium :  768px;
+// $bp--large  : 1024px;
+// $bp--xlarge : 1140px;
+// $bp--xxlarge: 1440px;
+
+// $bps: (
+//   'small'  :  $bp--small,
+//   'medium' :  $bp--medium,
+//   'large'  :  $bp--large,
+//   'xlarge' :  $bp--xlarge,
+//   'xxlarge':  $bp--xxlarge
+// );
+
+// @function bp($size: 'xsmall') {
+//   @return map-get($bps, $size);
+// }
+
+
+
+// /**
+//  *
+//  * SECTIONS
+//  *
+//  */
+
+// $section--xxxsmall:  200px;
+// $section--xxsmall :  400px;
+// $section--xsmall  :  600px;
+// $section--small   :  800px;
+// $section--medium  :  960px;
+// $section--large   : 1024px;
+// $section--xlarge  : 1140px;
+// $section--xxlarge : 1440px;
+
+// $sections: (
+//   'xxxsmall':  $section--xxxsmall,
+//   'xxsmall' :  $section--xxsmall,
+//   'xsmall'  :  $section--xsmall,
+//   'small'   :  $section--small,
+//   'medium'  :  $section--medium,
+//   'large'   :  $section--large,
+//   'xlarge'  :  $section--xlarge,
+//   'xxlarge' :  $section--xxlarge
+// );
+
+// @function section($size: 'xsmall') {
+//   @return map-get($sections, $size);
+// }
+
+
+
+// /**
+//  *
+//  * GAPS
+//  *
+//  */
+
+// $gap--xxxsmall:   4px;
+// $gap--xxsmall :   8px;
+// $gap--xsmall  :  16px;
+// $gap--small   :  32px;
+// $gap--medium  :  48px;
+// $gap--large   :  64px;
+// $gap--xlarge  :  92px;
+// $gap--xxlarge : 128px;
+// $gap--xxxlarge: 184px;
+
+// $gaps: (
+//   'xxxsmall':  $gap--xxxsmall,
+//   'xxsmall' :  $gap--xxsmall,
+//   'xsmall'  :  $gap--xsmall,
+//   'small'   :  $gap--small,
+//   'medium'  :  $gap--medium,
+//   'large'   :  $gap--large,
+//   'xlarge'  :  $gap--xlarge,
+//   'xxlarge' :  $gap--xxlarge,
+//   'xxxlarge':  $gap--xxxlarge
+// );
+
+// @function gap($size: 'xsmall') {
+//   @return map-get($gaps, $size);
+// }
+
+
+
+// /**
+//  *
+//  * COLORS
+//  *
+//  */
+
+// $color--action     : #24D786;
+// $color--hover      : #0EC8C7;
+// $color--disabled   : #D9D9D9;
+// $color--positive   : #0EC8C7;
+// $color--negative   : #F46060;
+// $color--brand-1    : #24D786;
+// $color--brand-2    : #0EC8C7;
+// $color--brand-3    : #014343;
+// $color--brand-4    : #553E42;
+// $color--brand-5    : #29191B;
+// $color--brand-6    : #5699E5;
+// $color--brand-7    : #D3E9ED;
+// $color--brand-8    : #F46060;
+// $color--neutrals-0 : #FFFFFF;
+// $color--neutrals-1 : #F9F9F9;
+// $color--neutrals-2 : #F6FFE4;
+// $color--neutrals-3 : #D5E5F8;
+// $color--neutrals-4 : #F2F8F9;
+// $color--neutrals-5 : #C8F5E1;
+
+// $colors: (
+//   'action'     : $color--action,
+//   'hover'      : $color--hover,
+//   'disabled'   : $color--disabled,
+//   'positive'   : $color--positive,
+//   'negative'   : $color--negative,
+//   'brand-1'    : $color--brand-1,
+//   'brand-2'    : $color--brand-2,
+//   'brand-3'    : $color--brand-3,
+//   'brand-4'    : $color--brand-4,
+//   'brand-5'    : $color--brand-5,
+//   'brand-6'    : $color--brand-6,
+//   'brand-7'    : $color--brand-7,
+//   'brand-8'    : $color--brand-8,
+//   'neutrals-0' : $color--neutrals-0,
+//   'neutrals-1' : $color--neutrals-1,
+//   'neutrals-2' : $color--neutrals-2,
+//   'neutrals-3' : $color--neutrals-3,
+//   'neutrals-4' : $color--neutrals-4,
+//   'neutrals-5' : $color--neutrals-5
+// );
+
+// @function color($name: false) {
+//   @return map-get($colors, quote($name));
+// }
+
+
+
+// /**
+//  *
+//  * FONTS
+//  *
+//  */
+
+// $font--main   : 'Nunito', Helvetica, Arial, sans-serif;
+// $font--special: 'Nunito', Helvetica, Arial, sans-serif;
+
+// $fonts: (
+//   'main': (
+//     'normal': $font--main
+//   ),
+//   'special': (
+//     'normal': $font--special
+//   )
+// );
+
+// @function font($face: main, $weight: 'normal') {
+//   $font: map-get($fonts, quote($face));
+//   @return map-get($font, quote($weight));
+// }
+
+
+
+// /**
+//  *
+//  * FONT SIZES
+//  *
+//  */
+
+// $fontSize--xxsmall: 10px;
+// $fontSize--xsmall : 12px;
+// $fontSize--small  : 14px;
+// $fontSize--medium : 15px;
+// $fontSize--large  : 17px;
+// $fontSize--xlarge : 20px;
+// $fontSize--xxlarge: 22px;
+// $fontSize--xxxlarge: 30px;
+
+// $fontSizes: (
+//   'inherit': inherit,
+//   'xxsmall': $fontSize--xxsmall,
+//   'xsmall' : $fontSize--xsmall,
+//   'small'  : $fontSize--small,
+//   'medium' : $fontSize--medium,
+//   'large'  : $fontSize--large,
+//   'xlarge' : $fontSize--xlarge,
+//   'xxlarge': $fontSize--xxlarge,
+// );
+
+// @function fontSize($size: 'medium') {
+//   @return map-get($fontSizes, quote($size));
+// }
+
+
+
+// /**
+//  *
+//  * TITLE SIZES
+//  *
+//  */
+
+// $titleSize--h6: .67em;
+// $titleSize--h5: .83em;
+// $titleSize--h4: 1em;
+// $titleSize--h3: 1.33em;
+// $titleSize--h2: 1.67em;
+// $titleSize--h1: 1.67em;
+// $titleSize--h0: 2em;
+
+// $titleSizes: (
+//   'inherit': inherit,
+//   'h6'     : $titleSize--h6,
+//   'h5'     : $titleSize--h5,
+//   'h4'     : $titleSize--h4,
+//   'h3'     : $titleSize--h3,
+//   'h2'     : $titleSize--h2,
+//   'h1'     : $titleSize--h1,
+//   'h0'     : $titleSize--h0
+// );
+
+// @function titleSize($size: 'h3') {
+//   @return map-get($titleSizes, quote($size));
+// }

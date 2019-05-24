@@ -1,0 +1,13 @@
+title: About us
+icon: ☎️
+
+options:
+  status: true
+
+
+columns:
+  - width: 1
+    sections:
+      timelineItem:
+        type: pages
+
