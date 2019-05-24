@@ -1,0 +1,14 @@
+title: gallery
+icon: 📷
+type:
+
+options:
+  status: true
+
+
+columns:
+  - width: 1
+    sections:
+      albums:
+        type: pages
+

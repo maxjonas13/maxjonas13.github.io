@@ -1,0 +1,51 @@
+{
+  "name": "these_days_dna",
+  "author": "These Days",
+  "version": "0.0.1",
+  "description": "Taskmanager for These Days projects",
+  "README": "./README.md",
+  "license": "MIT License (MIT)",
+  "private": true,
+  "repository": "https://bitbucket.uhub.biz/scm/yrtd/td-thesedays-taskmanager",
+  "scripts": {
+    "prestart": "npm i",
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "dev": "node ./node_modules/gulp/bin/gulp.js",
+    "production": "node ./node_modules/gulp/bin/gulp.js --env production",
+    "docs": "node ./node_modules/gulp/bin/gulp.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.13",
+    "del": "^2.2.2",
+    "glob": "^7.1.1",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-environments": "^0.1.2",
+    "gulp-file-include": "^2.0.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-inject": "^4.3.0",
+    "gulp-inject-partials": "^1.0.3",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprite": "^1.3.7",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-uglify": "^2.1.2",
+    "node-sass": "^4.11.0",
+    "require-dir": "^0.3.1"
+  },
+  "dependencies": {
+    "intersection-observer": "^0.5.1"
+  }
+}

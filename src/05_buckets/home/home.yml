@@ -1,0 +1,65 @@
+title: Home
+
+pages: false
+
+options:
+  preview: true
+  template: false
+  status: true
+  url: true
+  delete: true
+
+fields:
+  tab_settings:
+    label: Home settings
+    type: tabs
+
+  title:
+    label: Title
+    type:  text
+
+  tab_cheers:
+    label: Intro
+    type: tabs
+
+  home__cheers:
+    extends: cheers
+
+  tab_beers:
+    label: Beers
+    type: tabs
+
+  home__beers:
+    extends: beers
+
+  tab_infotainment:
+    label: Infotainment
+    type: tabs
+
+  home__infotainment:
+    extends: infotainment
+
+  tab_events:
+    label: Events
+    type: tabs
+
+  home__events:
+    extends: events
+
+  tab_manifesto:
+    label: Manifesto
+    type: tabs
+
+  home__manifesto:
+    extends: manifesto
+
+  tab_brewery:
+    label: Brewery
+    type: tabs
+
+  home__brewery:
+    extends: brewery
+
+
+
+

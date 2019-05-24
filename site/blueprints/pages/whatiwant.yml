@@ -1,0 +1,15 @@
+title: What I want
+icon: 📷
+type:
+
+options:
+  status: true
+
+
+columns:
+  - width: 1
+    sections:
+      actionfigures:
+        headline: "Action Figures"
+        type: pages
+

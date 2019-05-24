@@ -1,0 +1,36 @@
+
+@mixin blow($direction: 'both', $gap: 2rem) {
+
+	$w: 32px;
+	$h: 36px;
+
+	$before: url("../graphics/ornament-blow-l.png");
+	$after: url("../graphics/ornament-blow-r.png");
+
+	@if($direction == 'left') { $after: false; }
+	@if($direction == 'right') { $before: false; }
+
+	@if($before) { &:before { content: $before; display: inline-block; width: $w; height: $h; margin-right: $gap; }}
+	@if($after) { &:after { content: $after; display: inline-block; width: $w; height: $h; margin-left: $gap; }}
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+@mixin blowlarge($direction: 'both', $gap: 2rem) {
+
+	$w: 100px;
+	$h: 170px;
+
+	$before: url("../graphics/ornament-blowlarge-l.png");
+	$after: url("../graphics/ornament-blowlarge-r.png");
+
+	@if($direction == 'left') { $after: false; }
+	@if($direction == 'right') { $before: false; }
+
+	@if($before) { &:before { content: $before; display: inline-block; width: $w; height: $h; margin-right: $gap; }}
+	@if($after) { &:after { content: $after; display: inline-block; width: $w; height: $h; margin-left: $gap; }}
+
+}
