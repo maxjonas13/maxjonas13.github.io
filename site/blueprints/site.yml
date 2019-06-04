@@ -1,6 +1,0 @@
-title: Site
-
-columns:
-  - width: 1
-    sections:
-      posts: sections/posts
