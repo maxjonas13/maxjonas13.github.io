@@ -1,5 +1,6 @@
 # Kirby .htaccess
 
+
 # rewrite rules
 <IfModule mod_rewrite.c>
 
